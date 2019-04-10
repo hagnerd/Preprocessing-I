@@ -78,6 +78,13 @@ html, body {
 		}
 }
 
+.title-bar() {
+	background-color: @cantina-blue;
+	color: @concrete;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
 .container {
 	font-family: @content-font;
 	color: @chicago;
@@ -160,11 +167,7 @@ html, body {
 	}
 
 	.section-title-bar {
-		background-color: @cantina-blue;
-		color: @concrete;
-		text-transform: uppercase;
-		padding: 10px;
-
+		.title-bar();
 		h2 {
 			padding-left: 20px;
 		}
