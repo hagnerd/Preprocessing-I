@@ -191,6 +191,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .container .main-content {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
 .container .detail {
   width: 70%;
   padding: 75px 2rem 0;
@@ -200,6 +206,11 @@ body {
   padding-bottom: 10px;
   border-bottom: 2px solid #eef4f7;
   text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .container .detail {
+    width: 100%;
+  }
 }
 .container .intro {
   margin-bottom: 40px;
@@ -214,6 +225,11 @@ body {
 }
 .container .brief section:nth-child(1) {
   margin-top: -8px;
+}
+@media (max-width: 500px) {
+  .container .brief {
+    width: 100%;
+  }
 }
 .container .section-title-bar {
   background-color: #2b3a5d;
