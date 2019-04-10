@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>My Resume</title>
+  <title>Matt Hagner</title>
 
   <link rel="stylesheet" href="css/index.css">
 
@@ -14,6 +14,128 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+
+    <div class="name-card">
+      <h1><span class="text-fulvous">Matt</span> Hagner</h1>
+      <h2>Full Stack Web Developer</h2>
+    </div>
+
+    <header>
+      <nav>
+        <a href="./">Home</a>
+        <a href="./about">About</a>
+        <a href="./portfolio">Portfolio</a>
+        <a href="./contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="main-content">
+      <div class="detail">
+        <section class="intro">
+          <h2>INTRODUCTION</h2>
+          <p>My journey into programming really started when I wanted to make a killer MySpace page for my hardcore band. I saw that my highschool offered an introduction to web development course and I signed up. My high school band didn't last for long, but my interest in programming haunted me all throughout college and into my proffesional life. I found myself trying wedge programming in wherever I could.</p>
+          <p>One day, while writing a printer utility in AppleScripts I realized I had messed up. I was meant to be a programmer. I started learning as much as I could. After a year of going the self taught route I heard about Lambda, and it was too good of an offer to pass up.</p>
+        </section>
+        <section class="work-history">
+          <h2>Work History</h2>
+
+          <div class="job">
+            <h3 class="job-info__title">IT / MARKETING</h3>
+            <div class="job-info-row">
+              <h4 class="job-info__company">M&E Sales</h4>
+              <h4 class="job-info__range">June, 2017 - Present</h4>
+            </div>
+
+            <p class="job-info__description"></p>
+            <ul class="job-info__responsibilities">
+              <li>Set up and manage shipping system</li>
+              <li>Set up and manage inventory system</li>
+              <li>Coordinate PPC marketing</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3 class="job-info__title">SEO CONSULTANT</h3>
+            <div class="job-info-row">
+              <h4 class="job-info__company">Consumer Technologies</h4>
+              <h4 class="job-info__range">Jan - March, 2017</h4>
+            </div>
+
+            <p class="job-info__description"></p>
+            <ul class="job-info__responsibilities">
+              <li>Perform SEO audit</li>
+              <li>Assist in website transfer</li>
+              <li>Assist in content forwarding</li>
+              <li>Plan content strategy</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3 class="job-info__title">MARKETING CONSULTANT</h3>
+            <div class="job-info-row">
+              <h4 class="job-info__company">New Music Arts</h4>
+              <h4 class="job-info__range">March, 2016 - August, 2017</h4>
+            </div>
+
+            <p class="job-info__description"></p>
+            <ul class="job-info__responsibilities">
+              <li>Write, send, and analyze email marketing campaigns</li>
+              <li>Coordinate with sales personnel to create marketing materials</li>
+              <li>Design graphics for social media, newsletters, print, and website</li>
+            </ul>
+          </div>
+
+        </section>
+
+      </div>
+      <div class="brief">
+        <section class="skills">
+          <div class="section-title-bar">
+            <h2>Skills</h2>
+          </div>
+
+          <ul>
+            <li>Semantic HTML</li>
+            <li>Modern Layout (Flexbox & Grid)</li>
+            <li>Git & Github</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Functional Programming</li>
+          </ul>
+        </section>
+        <section class="contact-info">
+          <div class="section-title-bar">
+            <h2>Contact Info</h2>
+          </div>
+          <ul>
+            <li><a href="mailto:web@matthagner.com" target="_blank">web@matthagner.com</a></li>
+            <li><a href="tel:555-555-5555" target="_blank">555-555-5555</a></li>
+            <li><a href="https://twitter.com/_hagnerd" target="_blank">Twitter</a></li>
+          </ul>
+        </section>
+        <div class="contact">
+          <div class="section-title-bar">
+            <h2>Contact Me</h2>
+          </div>
+
+          <form>
+            <label for="contact-form__name">Name</label>
+            <input id="contact-form__name" type="text" required />
+            <label for="contact-form__email">Email</label>
+            <input id="contact-form__email" type="email" required />
+            <label for="contact-form__message">Message</label>
+            <textarea></textarea>
+            <button type="submit" disabled>Submit</button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
 </body>
 </html>
