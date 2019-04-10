@@ -134,6 +134,11 @@ html, body {
 	.main-content {
 		display: flex;
 		justify-content: space-between;
+
+		@media(max-width: 500px) {
+			flex-direction: column;
+			justify-content: flex-start;
+		}
 	}
 
 	.detail {
@@ -145,6 +150,10 @@ html, body {
 			padding-bottom: 10px;
 			border-bottom: 2px solid @aqua-haze;
 			text-transform: uppercase;
+		}
+
+		@media(max-width: 500px) {
+			width: 100%;
 		}
 	}
 
@@ -163,6 +172,10 @@ html, body {
 
 		section:nth-child(1) {
 			margin-top: -8px;
+		}
+
+		@media(max-width: 500px) {
+			width: 100%;
 		}
 	}
 
