@@ -1,1 +1,266 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+.container {
+  font-family: 'Lato', sans-serif;
+  color: #5f5f5f;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.container .name-card {
+  background-color: #2b3a5d;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+.container .name-card h1 {
+  font-size: 4rem;
+}
+.container .name-card h2 {
+  margin-top: 10px;
+}
+.container .name-card .text-fulvous {
+  color: #e17a00;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  background-color: #929292;
+}
+.container header nav a {
+  padding: 5px 10px;
+  color: #f3f3f3;
+  text-decoration: none;
+}
+.container header nav a:hover {
+  color: #3b3b3b;
+}
+.container .main-content {
+  display: flex;
+  justify-content: space-between;
+}
+.container .detail {
+  width: 70%;
+  padding: 75px 2rem 0;
+}
+.container .detail h2 {
+  color: #3b3b3b;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eef4f7;
+  text-transform: uppercase;
+}
+.container .intro {
+  margin-bottom: 40px;
+}
+.container .intro p {
+  margin-top: 20px;
+}
+.container .brief {
+  padding-top: 75px;
+  width: 30%;
+  border-left: 2px solid #eef4f7;
+}
+.container .brief section:nth-child(1) {
+  margin-top: -8px;
+}
+.container .section-title-bar {
+  background-color: #2b3a5d;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.container .section-title-bar h2 {
+  padding-left: 20px;
+}
+.container .skills ul {
+  margin: 40px;
+}
+.container .skills ul li {
+  margin: 20px 0;
+}
+.container .contact-info ul {
+  margin: 40px;
+}
+.container .contact-info ul li {
+  margin: 20px 0;
+}
+.container .contact form {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.container .contact form label {
+  margin: 10px 0;
+}
+.container .contact form button {
+  margin: 20px 0;
+  cursor: pointer;
+}
+.container .job {
+  margin: 30px 0;
+}
+.container .job .job-info-row {
+  display: flex;
+  margin-top: 10px;
+}
+.container .job .job-info-row *:nth-child(1) {
+  margin-right: 15px;
+}
+.container .job .job-info__responsibilities {
+  list-style: square;
+}
+.container .job .job-info__responsibilities li {
+  margin: 10px 0px 10px 60px;
+}
